@@ -23,3 +23,12 @@ const res = Transpiler (
     true 
 );
 console.log( res.func.toString() );
+const {NodeVM} = require('vm2');
+const vm = new NodeVM({
+    require: {
+        external: true,
+        root: './'
+    }
+});
+
+vm.run(res.func.toString());

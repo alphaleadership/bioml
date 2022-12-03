@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/alphaleadership/bioml/issues"
   },
-  "homepage": "https://github.com/alphaleadership/bioml#readme"
+  "homepage": "https://github.com/alphaleadership/bioml#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "vm2": "^3.9.12"
+  }
 }
